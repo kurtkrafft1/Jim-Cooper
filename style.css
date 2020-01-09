@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+.nav {
+    font-size: 50px;
+    text-align: right;
+    margin-top:0px;
+    top: 100%;
+    position: relative;
+    margin-right: 10px;
+   
+}
+nav h1 {
+    color: white;
+    text-align: right;
+}
+.nav_firstname {
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    
+}
+.nav_lastname {
+    font-family: 'Kulim Park', sans-serif;
+    position: relative;
+    font-size: 50px;
+    margin-right: 10px;
+}
+.nav_congressman {
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+}
+.bar {
+    display: inline;
+}
+nav {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(103, 128, 159, 1));
+    height:200px;
+    margin-top:0px;
+}
+
+.img-jim {
+    width:25%;
+    float: left;
+}
+.tristar {
+    width:12%;
+    margin-right:0px;
+    position: absolute;
+}
+li.nav_links {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+}
+ul.links {
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    list-style-type:none ;
+}
+button {
+    border: 1px solid midnightblue;
+    border-radius: 6%;
+    font-size: 25px;
+    margin: 5px;
+    font-family: 'Work Sans', sans-serif;
+    color: midnightblue;
+}
+button:hover{
+    border:1px white solid;
+    font-size: 27px;
+    color: white;
+    background-color: midnightblue;
+}
+main {
+    display: flex;
+}
+p.bio {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid midnightblue;
+    font-size: 20px;
+    padding: 5px;
+    flex-direction: column;
+
+
+}
+article.everything {
+    display: inline;
+}
+h3 {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+.cat {
+    float: right;
+    margin: 5px;
+    margin-top: 30px;
+}
+footer div {
+    border: solid 1px midnightblue;
+    border-width: 200px;
+}
+p.contact {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;   
+    font-size: 20px;
+
+}
+h4.contact {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;   
+    font-size: 40px;
+    margin-bottom: 3px;
+}
+li.bills {
+    list-style-type: decimal;
+}
+ul.bills {
+    list-style-type: disc;
+}
+
+
